@@ -1,17 +1,18 @@
 ---
-title: New Lesson
-teaching: 10
-exercises: 20
-duration: 0
+title: Homework: Applying transparent practices
+teaching: null
+exercises: null
+duration: 2 hours or more
 summary: null
-questions: null
+questions:
+  - xxx
 objectives: null
 keypoints: null
 is-break: false
 ukrn_wb_rules: []
-day: 4
+day: 3
 order: 100000
 
 ---
-The text of your lesson will go here.
-It can make use of markdown formatting, as well as the special [callout zones](https://ukrn-open-research.github.io/ukrn-wb-lesson-templates/text-lesson/index.html#examples) in The Carpentries' template.
+
+xxx
