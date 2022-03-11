@@ -1,5 +1,12 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
+
+course_dates:
+  - April 18
+  - April 20
+  - April 22
+  - April 29
+
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
