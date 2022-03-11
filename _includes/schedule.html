@@ -1,4 +1,3 @@
-xxx
 {% comment %}First we create a unified episode list and extract unique days{% endcomment %}
 {% assign EPISODES = site.episodes | concat: site.episodes_rmd %}
 
@@ -8,7 +7,7 @@ xxx
 {% assign d = unique_days | size | minus: 1 %}
 {% assign max_day = days[d] %}
 {% assign index = 0 %}
-{% assign course_dates = "April 18, April 20, April 22, April 29" | split: ', ' %}
+{% assign course_dates = "April 18,April 20,April 22,April 29" | split: ',' %}
 
 {% for day in (min_day..max_day) %}
 {% comment %}Only display if we're an actual day!{% endcomment %}
@@ -37,7 +36,7 @@ xxx
 <div class="row">       <!-- Rows contain two days -->
     {% endif %}
     <div class="col-md-6">          <!-- Individual day column -->
-        <h3>{{ course_dates[day - 1] }}</h3>
+        <h3>{{ course_dates[day] }}</h3>
         <table class="table table-striped schedule-table">
             {% assign epSize = E | size %}
             {% if epSize > 0 %}
