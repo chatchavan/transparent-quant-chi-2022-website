@@ -157,6 +157,7 @@ Calendar entries for these dates are available in the <strong>General Informatio
 <hr/>
 
 
+<!--SETUP
 <h2 id="setup">Setup</h2>
 {% comment %}
 SETUP
@@ -179,7 +180,7 @@ that may be useful on the
 {% else %}
 To participate in this workshop you will need an up-to-date web browser.
 {% endif %}
-
+-->
 
 <!--PADLET
 {% if site.collaborative_notes %}
