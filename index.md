@@ -147,13 +147,11 @@ Show the workshop's schedule.
 The schedule is automatically generated from the lessons in `./_episodes` and `./episodes_rmd`, which are in turn produced by the generator tool.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
-Click on the time to convert it to your local timezone (on the present day). 
+<h2 id="schedule">Schedule</h2> 
 
 {% include schedule.html %}
 
-Calendar entries for these dates are available in the <strong>General Information</strong> section above.
-
+📅 Calendar entries for these dates are available in the <strong>General Information</strong> section above.
 <hr/>
 
 
