@@ -44,9 +44,11 @@
             {% comment %}Increment the timer{% endcomment %}
             <tr class="{% if ep.is-break %}break-episode{% endif %}">               <!-- Every event goes on a new row   -->
                 <td>
+                    {% if day != 4 %}
                     <a href="https://dateful.com/convert/central-louisiana?t=11">11:00</a> – 
                     <a href="https://dateful.com/convert/central-louisiana?t=1215">12:15</a>
                     (Central)
+                    {% endif %}
                 </td>        <!-- time    -->
                 <td>
                     {% if ep.summary %}
