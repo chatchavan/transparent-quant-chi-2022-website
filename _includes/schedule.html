@@ -8,6 +8,7 @@
 {% assign d = unique_days | size | minus: 1 %}
 {% assign max_day = days[d] %}
 {% assign index = 0 %}
+{% course_dates = site.course_dates %}
 
 {% for day in (min_day..max_day) %}
 {% comment %}Only display if we're an actual day!{% endcomment %}
