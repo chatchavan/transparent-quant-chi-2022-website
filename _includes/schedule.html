@@ -1,3 +1,11 @@
+---
+course_dates:
+  - April 18
+  - April 20
+  - April 22
+  - April 29
+---
+
 {% comment %}First we create a unified episode list and extract unique days{% endcomment %}
 {% assign EPISODES = site.episodes | concat: site.episodes_rmd %}
 
@@ -35,23 +43,17 @@
 <div class="row">       <!-- Rows contain two days -->
     {% endif %}
     <div class="col-md-6">          <!-- Individual day column -->
-        <h3>Day {{ day }}</h3>
+        <h3>{{ course_dates[day - 1] }}</h3>
         <table class="table table-striped schedule-table">
-            {% if index == 1 %}
-            <!--
-            <tr>
-                <td>Before starting</td>
-                <td><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-workshop survey</a></td>
-            </tr>
-            -->
-            {% endif %}
             {% assign epSize = E | size %}
             {% if epSize > 0 %}
             {% for ep in E %}
             {% comment %}Increment the timer{% endcomment %}
             <tr class="{% if ep.is-break %}break-episode{% endif %}">               <!-- Every event goes on a new row   -->
                 <td>
-                    <a href="https://dateful.com/convert/central-louisiana?t=11">11:00 (Central)</a>
+                    <a href="https://dateful.com/convert/central-louisiana?t=11">11:00</a> – 
+                    <a href="https://dateful.com/convert/central-louisiana?t=1215">12:15</a>
+                    (Central)
                 </td>        <!-- time    -->
                 <td>
                     {% if ep.summary %}
