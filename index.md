@@ -96,8 +96,9 @@ This block displays the date and links to Google Calendar.
 {% if site.start_date %}
 <p id="when">
   <strong>When:</strong>
-  {{site.start_date | date: "%y %m %d - %H:%M" }}.
-  {% include workshop_calendar.html %}
+  18, 20, 22, and 29 April 2022<br/>
+  9:00–10:15 (Pacific)   11:00–12:15 (Central)   12:00–13:15 (Eastern)    18:00–19:15 (Europe)<br/>
+  <a href="https://drive.google.com/file/d/19fGGn9XhkRVOPYCzuZoXvqY-xiRukE3a/view?usp=sharing" target="_blank">[iCal entries]</a>
 </p>
 {% endif %}
 
@@ -125,45 +126,6 @@ Display the contact email address set in the configuration file.
 </p>
 
 <hr/>
-
-
-{% comment %}
-Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop,
-e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD)
-available at https://codimd.carpentries.org
-{% endcomment %}
-{% if site.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
-
-<p>
-We will use this <a href="{{ site.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
-</p>
-<hr/>
-{% endif %}
-
-{% assign pre = site.pre_survey | size %}
-{% assign post = site.post_survey | size %}
-{% if pre > 0 or post > 0 %}
-<h2 id="surveys">Surveys</h2>
-{% if pre > 0 and post > 0 %}
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-workshop Survey</a></p>
-{% else %}
-<p>Please be sure to complete this survey {% if pre > 0 %}before{% else %}after{% endif %} the workshop.</p>
-{% if pre > 0 %}<p><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-workshop Survey</a></p>
-{% else %}<p><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-workshop Survey</a></p>{% endif %}
-{% endif %}
-<hr/>
-{% endif %}
 
 {% comment %}
 SCHEDULE
@@ -202,3 +164,21 @@ that may be useful on the
 {% else %}
 To participate in this workshop you will need an up-to-date web browser.
 {% endif %}
+
+
+{% if site.collaborative_notes %}
+<h2 id="collaborative_notes">Collaborative Notes</h2>
+
+<p>
+We will use this <a href="{{ site.collaborative_notes }}">Padlet</a> for asking questions, commenting, sharing URLs, and bits of code.
+</p>
+<hr/>
+{% endif %}
+
+{% assign pre = site.pre_survey | size %}
+{% assign post = site.post_survey | size %}
+<h2 id="surveys">Surveys</h2>
+<p>Please be sure to complete these surveys before and after the course.</p>
+<p><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-course Survey</a></p>
+<p><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-course Survey</a></p>
+<hr/>
