@@ -166,6 +166,7 @@ To participate in this workshop you will need an up-to-date web browser.
 {% endif %}
 
 
+<!--PADLET
 {% if site.collaborative_notes %}
 <h2 id="collaborative_notes">Collaborative Notes</h2>
 
@@ -174,7 +175,9 @@ We will use this <a href="{{ site.collaborative_notes }}">Padlet</a> for asking 
 </p>
 <hr/>
 {% endif %}
+-->
 
+<!--SURVEY
 {% assign pre = site.pre_survey | size %}
 {% assign post = site.post_survey | size %}
 <h2 id="surveys">Surveys</h2>
@@ -182,3 +185,4 @@ We will use this <a href="{{ site.collaborative_notes }}">Padlet</a> for asking 
 <p><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-course Survey</a></p>
 <p><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-course Survey</a></p>
 <hr/>
+-->
