@@ -104,8 +104,8 @@ This block displays the date and links to Google Calendar.
 </p>
 <p>
   <strong>Calendar entries:</strong>
-  <a href="https://drive.google.com/file/d/19fGGn9XhkRVOPYCzuZoXvqY-xiRukE3a/view?usp=sharing" target="_blank">Download iCal cor all four days</a>, or <br/>
-  use World Time Buddy for
+  <a href="https://drive.google.com/file/d/19fGGn9XhkRVOPYCzuZoXvqY-xiRukE3a/view?usp=sharing" target="_blank">Download iCal cor all four days</a>, or
+  use World Time Buddy to add to Google Calendar or Outlook:
   <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-18&sln=18-19.5&hf=1" target="_blank">Day 1</a>,
   <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-20&sln=18-19.5&hf=1" target="_blank">Day 2</a>,
     <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-22&sln=18-19.5&hf=1" target="_blank">Day 3</a>, and
