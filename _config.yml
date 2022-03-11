@@ -34,8 +34,8 @@ ukrn_email: training@ukrn.org
 ukrn_site: https://ukrn.org/
 repository: <USERNAME>/<PROJECT>
 carpentries_site: https://carpentries.org/
-pre_survey: https://todo.for.chat/pre-course-survey
-post_survey: https://todo.for.chat/post-course-survey
+pre_survey: https://pre-course-survey-TBA
+post_survey: https://post-course-survey-TBA
 collections:
   episodes:
     output: true
