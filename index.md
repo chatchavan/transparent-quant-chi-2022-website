@@ -126,22 +126,6 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment%}
-CODE OF CONDUCT
-{% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
-
-<p>
-Everyone who participates in UKRN activities is required to conform to the <a href="https://cpb-eu-w2.wpmucdn.com/blogs.bristol.ac.uk/dist/b/631/files/2020/07/Code-of-Conduct-extracted-from-UKRN-ToR-v3.2.pdf">UKRN Code of Conduct</a>. This document also outlines how to report an incident if needed.
-</p>
-
-<p class="text-center">
-  <a href="https://www.ukrn.org/contact-us/">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
-  </a>
-</p>
-<hr/>
-
 
 {% comment %}
 Collaborative Notes
