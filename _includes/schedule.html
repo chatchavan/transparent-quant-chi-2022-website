@@ -38,10 +38,12 @@
         <h3>Day {{ day }}</h3>
         <table class="table table-striped schedule-table">
             {% if index == 1 %}
-            <tr>               <!-- The first time through we want the pre_survey   -->
+            <!--
+            <tr>
                 <td>Before starting</td>
                 <td><a href="{{ site.pre_survey }}{{ site.workshop_id }}" target="_blank">Pre-workshop survey</a></td>
             </tr>
+            -->
             {% endif %}
             {% assign epSize = E | size %}
             {% if epSize > 0 %}
@@ -85,7 +87,7 @@
             {% if forloop.last %}
             <tr>               <!-- The last time through we want the post_survey  -->
                 <td>End</td>
-                <td><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-workshop survey</a></td>
+                <td><a href="{{ site.post_survey }}{{ site.workshop_id }}" target="_blank">Post-course survey</a></td>
             </tr>
             {% endif %}
         </table>
