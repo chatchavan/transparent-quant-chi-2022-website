@@ -156,7 +156,7 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 
 <h2 id="schedule">Schedule</h2> 
 
-{% include register.html %}
+{% include registration.md %}
 <hr/>
 
 
