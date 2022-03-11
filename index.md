@@ -154,6 +154,11 @@ The schedule is automatically generated from the lessons in `./_episodes` and `.
 📅 Calendar entries for these dates are available in the <strong>General Information</strong> section above.
 <hr/>
 
+<h2 id="schedule">Schedule</h2> 
+
+{% include register.html %}
+<hr/>
+
 
 <!--SETUP
 <h2 id="setup">Setup</h2>
