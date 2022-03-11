@@ -1,7 +1,7 @@
 ---
 workshop_id: UZHTS20220418_01
 topic: preregistration
-title: Transparent Practices for Quantitative Empirical Research (CHI 20222 Course)
+title: Transparent Practices for Quantitative Empirical Research
 instructors:
   - Chat Wacharamanotham
   - Fumeng Yang
@@ -19,7 +19,7 @@ start_times:
   - 11|00
 setup_files: []
 language: en
-venue: Online
+venue: A CHI 2022 course
 address: null
 country: null
 latitude: null
