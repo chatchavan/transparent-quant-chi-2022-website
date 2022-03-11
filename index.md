@@ -95,11 +95,24 @@ This block displays the date and links to Google Calendar.
 {% endcomment %}
 {% if site.start_date %}
 <p id="when">
-  <strong>When:</strong>
-  18, 20, 22, and 29 April 2022<br/>
-  9:00–10:15 (Pacific)   11:00–12:15 (Central)   12:00–13:15 (Eastern)    18:00–19:15 (Europe)<br/>
-  <a href="https://drive.google.com/file/d/19fGGn9XhkRVOPYCzuZoXvqY-xiRukE3a/view?usp=sharing" target="_blank">[iCal entries]</a>
+  <strong>Dates:</strong>
+  18, 20, 22, and 29 April 2022
 </p>
+<p>
+  <strong>Time:</strong>
+    9:00–10:15 (Pacific) = 11:00–12:15 (Central) = 12:00–13:15 (Eastern) = 18:00–19:15 (Europe)
+</p>
+<p>
+  <strong>Calendar entries:</strong>
+  <a href="https://drive.google.com/file/d/19fGGn9XhkRVOPYCzuZoXvqY-xiRukE3a/view?usp=sharing" target="_blank">Download iCal cor all four days</a>, or <br/>
+  use World Time Buddy for
+  <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-18&sln=18-19.5&hf=1" target="_blank">Day 1</a>,
+  <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-20&sln=18-19.5&hf=1" target="_blank">Day 2</a>,
+    <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-22&sln=18-19.5&hf=1" target="_blank">Day 3</a>, and
+    <a href="https://www.worldtimebuddy.com/?qm=1&lid=2657896,5391959,5128581,4335045&h=2657896&date=2022-4-29&sln=18-19.5&hf=1" target="_blank">Day 4</a>. (Note: World Time Buddy supports 30-minute chunks, so the calendar entries download from there will be 15 minutes longer than the actual time.)
+</p>
+
+
 {% endif %}
 
 {% comment %} Include the extra optional files listed in optional_intro_sections {% endcomment %}
