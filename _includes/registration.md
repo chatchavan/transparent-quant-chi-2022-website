@@ -1,3 +1,5 @@
+Course fee: $100 (+ CHI registration fee—physical or virtual)
+
 If you are not yet registered for CHI:
 1. Go to [CHI 2022 registration page](https://cvent.me/AgNgla)
 2. Scroll to the bottom of the page and select the Member or Non-Member button to begin your registration. 
