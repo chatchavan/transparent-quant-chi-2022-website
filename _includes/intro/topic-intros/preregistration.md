@@ -7,4 +7,3 @@ The course participants…
 * know a range of practices, methods, and tools to improve research transparency,
 * can apply principles to evaluate and compare the transparency of statistical and visualization techniques, and
 * can preregister and deposit their research artifacts in FAIR repositories.
-xxx
