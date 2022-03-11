@@ -127,15 +127,7 @@ Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
   <strong>Contact:</strong>
-  Please email the instructors for more information.
-  {% if site.instructor_emails %}
-    The instructors' emails are:
-    <ul>
-    {% for email in site.instructor_emails %}
-      <li><a href='mailto:{{email}}'>{{email}}</a></li>
-    {% endfor %}
-    </ul>
-  {% endif %}
+  <a href='mailto:chat@ifi.uzh.ch?subject=[CHI Course]'>chat@ifi.uzh.ch</a>
 </p>
 
 <hr/>
