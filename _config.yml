@@ -29,7 +29,6 @@ collaborative_notes: "http://tiny.cc/chi22-transparency-1-QA "
 eventbrite: null
 optional_intro_sections:
   - requirements
-  - accessibility
 kind: workshop
 ukrn_email: training@ukrn.org
 ukrn_site: https://ukrn.org/
