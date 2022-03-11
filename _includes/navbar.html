@@ -16,8 +16,8 @@ Lesson navigation bar.
       </button>
 
       {% comment %} Select what logo to display. {% endcomment %}
-      <a href="{{ site.ukrn_site }}" class="pull-left">
-        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/UKRN-Logo.png %}" alt="The UKRN logo" />
+      <a href="http://transparentstatistics.org" class="pull-left">
+        <img class="navbar-logo" src="{{ relative_root_path }}{% link /assets/img/transparentstats-logo.png %}" alt="The UKRN logo" />
       </a>
 
       {% comment %} Always show link to home page. {% endcomment %}
@@ -28,7 +28,7 @@ Lesson navigation bar.
       <ul class="nav navbar-nav">
         {% comment %} Show lesson episodes for lessons. {% endcomment %}
         <li class="dropdown">
-          <a href="{{ relative_root_path }}/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Episodes <span class="caret"></span></a>
+          <a href="{{ relative_root_path }}/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sessions<span class="caret"></span></a>
           <ul class="dropdown-menu">
             {% include unique_days.lqd %}
             {% for id in ordered_episode_ids %}
@@ -41,7 +41,7 @@ Lesson navigation bar.
           </ul>
         </li>
         {% if site.collaborative_notes %}
-        <li><a href="{{ site.collaborative_notes }}" target="_blank">Shared Notes</a></li>
+        <li><a href="{{ site.collaborative_notes }}" target="_blank">Padlet</a></li>
         {% endif %}
       </ul>
       <form class="navbar-form navbar-right" role="search" id="search" onsubmit="google_search(); return false;">
