@@ -1,13 +1,9 @@
-Preregistration training aims to help researchers make their results more trustworthy by clearly differentiating pre-planned from exploratory analyses.
+*Transparent research practices* enable the research design, materials, analytic methods, and data to be thoroughly evaluated and potentially reproduced. This course presents current best practices and tools for increasing research transparency.
 
-This training will teach researchers to:
-* preregister studies and write Registered Reports (in which a journal prospectively agrees to publish a study on the basis of its methodology before the results are know)
-* **find repositories**
-* identify **what type of studies** preregistration is most valuable for
-* choose an appropriate preregistration **template**
-* locate **journals which accept Registered Reports**
+After the course, we expect the participants to be able to get started on improving their own research practices, assessing research transparency in articles they read and review. Toward these goals, we design this course with the following specific learning outcomes:
 
-_Preregistration training introduces you to the fundamentals of preregistration and
-provides you with practical tools for preregistering real studies. It also acts as a
-platform for further self-directed learning.
-Other UKRN Open Research topics can be found in the [list of UKRN Primers](https://ukrn.org/primers/)._
+The course participants…
+* aware of decisions made in the course of quantitative research and the importance of making them transparent,
+* know a range of practices, methods, and tools to improve research transparency,
+* can apply principles to evaluate and compare the transparency of statistical and visualization techniques, and
+* can preregister and deposit their research artifacts in FAIR repositories.
