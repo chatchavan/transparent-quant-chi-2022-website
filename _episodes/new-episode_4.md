@@ -1,5 +1,5 @@
 ---
-title: Homework: Applying transparent practices
+title: Homework - Applying transparent practices
 teaching: null
 exercises: null
 duration: 2 hours or more
