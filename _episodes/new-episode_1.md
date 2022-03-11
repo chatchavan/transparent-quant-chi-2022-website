@@ -14,7 +14,7 @@ objectives: null
 keypoints: null
 is-break: false
 ukrn_wb_rules: []
-day: 18 April
+day: 1
 order: 100000
 
 ---
