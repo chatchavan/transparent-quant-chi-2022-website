@@ -51,19 +51,7 @@
             {% comment %}Increment the timer{% endcomment %}
             <tr class="{% if ep.is-break %}break-episode{% endif %}">               <!-- Every event goes on a new row   -->
                 <td>
-                    {% if include_times %}
-                    {% comment %}Account for hours incremented by minutes.{% endcomment %}
-                    {% assign minutes_to_hours = M | divided_by: 60 %}
-                    {% assign minutes_to_hours = minutes_to_hours | floor %}
-                    {% assign h = H | plus: minutes_to_hours %}
-                    {% assign h = h | modulo: 24 | floor %}
-                    {% if h < 10 %}{% assign h = h | prepend: '0' %}{% endif %}
-                    {% assign m = M | modulo: 60 | floor %}
-                    {% if m < 10 %}{% assign m = m | prepend: '0' %}{% endif %}
-                    {{ h }}:{{ m }}
-                    {% comment %}Increment timers{% endcomment %}
-                    {% assign M = M | plus: (ep.teaching | plus: (ep.exercises | plus: ep.duration) %}
-                    {% endif %}
+                    <a href="https://dateful.com/convert/central-louisiana?t=11">11:00 (Central)</a>
                 </td>        <!-- time    -->
                 <td>
                     {% if ep.summary %}
