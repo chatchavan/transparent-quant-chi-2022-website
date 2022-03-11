@@ -23,7 +23,7 @@ Planning involves deciding on the type of research questions, choosing variables
 
 This section will introduce the participants to lists of research decisions. We will show examples of how these decisions could infuence data analysis. We will discuss what information are necessary to preregister and why they matter. We will discuss types of research artifacts and how to share them according to the FAIR principles (<strong>F</strong>indability, <strong>A</strong>ccessibility, <strong>I</strong>nteroperability, and <strong>R</strong>euse).
 
-We will demonstrate and discuss analytic decisions in a statistical analysis example and discuss their implications from the perspective of transparency. This example will focus on frequentist statistics. (Bayesian will be covered in lecture 2.)
+We will demonstrate and discuss analytic decisions in a statistical analysis example and discuss their implications from the perspective of transparency. This example will focus on frequentist statistics. (Bayesian statistics will be covered in lecture 2.)
 
 
 <!-- 
