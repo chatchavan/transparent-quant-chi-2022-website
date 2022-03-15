@@ -15,3 +15,7 @@ If you are adding a course to your existing registration:
 5. Proceed through your registration (“Next” button until the Optional Items page) to add the desired course.
 6. Select the course __CO7__ from the list and click “Next” at the bottom.
 7. Follow through to complete the addition by making a payment and clicking “Finish”.
+
+
+#### Support for the registration fee
+* [Gary Marsden Travel Awards](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline March 16th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters (papers, posters/extended abstracts—including for workshops/symposia, works in progress, demos, case studies, etc.. )
