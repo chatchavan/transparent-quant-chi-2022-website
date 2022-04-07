@@ -18,4 +18,4 @@ If you are adding a course to your existing registration:
 
 
 #### Support for the registration fee
-* [Gary Marsden Travel Awards](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (Deadline March 16th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters (papers, posters/extended abstracts—including for workshops/symposia, works in progress, demos, case studies, etc.. )
+* [Gary Marsden Travel Awards](https://sigchi.submittable.com/submit/165150/gary-marsden-travel-awards) (**New** deadline April 10th, 11:59pm AoE). This fund prioritizes first-time attendees and presenters (papers, posters/extended abstracts—including for workshops/symposia, works in progress, demos, case studies, etc.. )
